@@ -1,8 +1,6 @@
 defmodule Example do
   use Application
 
-  @x 5
-
   def start(_type, _args) do #_args describes data past to the parameter
     #code
     Example.main()
@@ -10,7 +8,14 @@ defmodule Example do
   end
 
   def main do
-    IO.puts(@x)
+    name = "Eljay";
+    status = Enum.random([:gold, :silver, :bronze])
+
+    if status === :gold do
+      IO.puts("Welcome, #{name}! Welcome to fancy lounge.")
+    else
+      IO.puts("Get lost")
+    end
   end
 end
 
