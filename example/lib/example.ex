@@ -9,12 +9,19 @@ defmodule Example do
 
   def main do
     name = "Eljay";
-    status = Enum.random([:gold, :silver, :bronze])
+    status = Enum.random([:gold, :silver, :bronze, :"not a member"])
 
+    """
     if status === :gold do
       IO.puts("Welcome, #{name}! Welcome to fancy lounge.")
     else
       IO.puts("Get lost")
+    end
+      """
+    case status do
+      :gold -> IO.puts("Welcome, #{name}! Welcome to fancy lounge.")
+      :"not a member" -> IO.puts("Get subscribed")
+      _ -> IO.puts("Get lost")
     end
   end
 end
