@@ -12,4 +12,5 @@ Notes:
 
 Need to use 'mix.bat' to run stuff in the terminal within VS Code
 - shows difference that returns a value and prints a value
-- 
+- going over functions and going over how to compile elixir
+- the code defined directly inside of this module is excuted when the code is compiled, not when it's ran
