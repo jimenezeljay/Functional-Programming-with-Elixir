@@ -8,22 +8,8 @@ defmodule Example do
   end
 
   def main do
-    name = "Eljay";
-    status = Enum.random([:gold, :silver, :bronze, :"not a member"])
-
-    """
-    if status === :gold do
-      IO.puts("Welcome, #{name}! Welcome to fancy lounge.")
-    else
-      IO.puts("Get lost")
-    end
-      """
-    case status do
-      :gold -> IO.puts("Welcome, #{name}! Welcome to fancy lounge.")
-      :"not a member" -> IO.puts("Get subscribed")
-      _ -> IO.puts("Get lost")
-    end
+    a = 10
+    b = 3.0
+    IO.puts(a+b)
   end
 end
-
-#creating variables
