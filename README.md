@@ -2,9 +2,14 @@
 Students will explore functional programming principles by implementing a simple sentence analyzer. The program will process text input and calculate statistics such as word count, sentence count, and unique word frequency.
 
 Resrouces:
-https://www.youtube.com/watch?v=-lgtb-YSUWE&t=227s
-https://elixirschool.com/en/lessons/basics/basics#integers-4
-https://elixir-lang.org/install.html#install-scripts
+- https://www.youtube.com/watch?v=-lgtb-YSUWE&t=227s
+- https://elixirschool.com/en/lessons/basics/basics#integers-4
+- https://elixir-lang.org/install.html#install-scripts
+- https://elixirschool.com/en/lessons/basics/enum
+- https://hexdocs.pm/elixir/Enum.html
+- https://elixirschool.com/en/lessons/basics/pipe_operator
+- https://hexdocs.pm/elixir/Kernel.html#%7C%3E/2
+- 
 
 
 
