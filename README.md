@@ -9,7 +9,10 @@ Resrouces:
 - https://hexdocs.pm/elixir/Enum.html
 - https://elixirschool.com/en/lessons/basics/pipe_operator
 - https://hexdocs.pm/elixir/Kernel.html#%7C%3E/2
-- 
+- https://elixirschool.com/en/lessons/basics/functions#recursion-0
+- https://hexdocs.pm/elixir/recursion.html
+- https://elixirschool.com/en/lessons/basics/pattern_matching
+- https://hexdocs.pm/elixir/pattern-matching.html
 
 
 
@@ -19,3 +22,4 @@ Need to use 'mix.bat' to run stuff in the terminal within VS Code
 - shows difference that returns a value and prints a value
 - going over functions and going over how to compile elixir
 - the code defined directly inside of this module is excuted when the code is compiled, not when it's ran
+- rescursion is ran to call upon itself instead of a loop (replacing for and while loops)
